@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DemoViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    DemoViewController *controller;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

@@ -18,7 +18,7 @@
 		3AC5275316FA82B0009AA27F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC5275216FA82B0009AA27F /* Default-568h@2x.png */; };
 		3AC5275E16FA8316009AA27F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5275C16FA8316009AA27F /* DemoViewController.m */; };
 		3AC5275F16FA8316009AA27F /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AC5275D16FA8316009AA27F /* DemoViewController.xib */; };
-		3AC5276616FA8383009AA27F /* ZKDropdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5276516FA8383009AA27F /* ZKDropdownButton.m */; };
+		3AC5276616FA8383009AA27F /* ZKDropdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5276516FA8383009AA27F /* ZKDropdown.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +38,8 @@
 		3AC5275B16FA8316009AA27F /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoViewController.h; path = Demo/DemoViewController.h; sourceTree = "<group>"; };
 		3AC5275C16FA8316009AA27F /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoViewController.m; path = Demo/DemoViewController.m; sourceTree = "<group>"; };
 		3AC5275D16FA8316009AA27F /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DemoViewController.xib; path = Demo/DemoViewController.xib; sourceTree = "<group>"; };
-		3AC5276416FA8383009AA27F /* ZKDropdownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKDropdownButton.h; path = ZKDropdownButton/ZKDropdownButton.h; sourceTree = "<group>"; };
-		3AC5276516FA8383009AA27F /* ZKDropdownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKDropdownButton.m; path = ZKDropdownButton/ZKDropdownButton.m; sourceTree = "<group>"; };
+		3AC5276416FA8383009AA27F /* ZKDropdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKDropdown.h; path = ZKDropdownButton/ZKDropdown.h; sourceTree = "<group>"; };
+		3AC5276516FA8383009AA27F /* ZKDropdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKDropdown.m; path = ZKDropdownButton/ZKDropdown.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +112,8 @@
 		3AC5275916FA82C4009AA27F /* ZKClasses */ = {
 			isa = PBXGroup;
 			children = (
-				3AC5276416FA8383009AA27F /* ZKDropdownButton.h */,
-				3AC5276516FA8383009AA27F /* ZKDropdownButton.m */,
+				3AC5276416FA8383009AA27F /* ZKDropdown.h */,
+				3AC5276516FA8383009AA27F /* ZKDropdown.m */,
 			);
 			name = ZKClasses;
 			sourceTree = "<group>";
@@ -197,7 +197,7 @@
 				3AC5274916FA82B0009AA27F /* main.m in Sources */,
 				3AC5274D16FA82B0009AA27F /* AppDelegate.m in Sources */,
 				3AC5275E16FA8316009AA27F /* DemoViewController.m in Sources */,
-				3AC5276616FA8383009AA27F /* ZKDropdownButton.m in Sources */,
+				3AC5276616FA8383009AA27F /* ZKDropdown.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
