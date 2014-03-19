@@ -14,7 +14,11 @@ A drop down list control for iOS. iPhone version only at this stage
 
 Just use it in code like:
 
-<pre>drop = [[ZKDropdown alloc] initDropdownToObject:self.moveableBtn WithKeys:@[@"1234", @"Number 2", @"1234", @"Number 2", @"1234", @"Number 2",@"1234", @"Number 2"] andValues:nil withType:ZKSelectionModeSingle complete:^(BOOL isSelectedMade, id key, id value) {
+<pre>drop = [[ZKDropdown alloc] initDropdownToObject:self.moveableBtn 
+WithKeys:@[@"1234", @"Number 2", @"1234", @"Number 2", @"1234", @"Number 2",@"1234", @"Number 2"] 
+andValues:nil 
+withType:ZKSelectionModeSingle 
+complete:^(BOOL isSelectedMade, id key, id value) {
         if (isSelectedMade) {
             [self.moveableBtn setTitle:key forState:UIControlStateNormal];
         }
